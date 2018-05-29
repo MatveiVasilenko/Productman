@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	height: 100%;
+}
+body{
+	font: 400 1.8rem/1 Raleway, sans-serif;
+	min-height: 100%;
+	background: #eee;
+}
+a {
+	text-decoration: none;
+}
+nav {
+	font-size: 0;
+}
+section {
+	font-size: 0;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+header.container {
+	margin: 3.4em auto;
+}
+.logo {
+	font-family: Roboto, sans-serif;
+	font-weight: 900;
+	font-size: 4.8rem;
+	color: #303030;
+	display: inline-block;
+	width: 300px;
+	vertical-align: middle;
+}
+.menu {
+	display: inline-block;
+	width: calc(100% - 300px);
+	font-size: 1.8rem;
+	vertical-align: middle;
+	text-align: right
+}
+.menu li {
+	display: inline-block;
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+}
+.menu li a {
+	padding: .5em 1em;
+}
+.blackwhite {
+	display: inline-block;
+	width: 50%;
+	margin: 0;
+}
+.blackwhite h1 {
+	font-weight: 900;
+	font-size: 15rem;
+	display: inline-block;
+	text-align: right;
+	text-transform: uppercase;
+	margin: 0.3em 0;
+}
+.blackwhite div {
+	text-align: right;
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+	color: #303030;
+	font-size: 2.4rem;
+	line-height: 1.5;
+}
+.blackwhite a div {
+	text-align: right;
+	color: #e10011;
+	font-family: Roboto, sans-serif;
+	font-size: 2.4rem;
+	font-weight: 900;
+	margin: 1em 0;
+}
+.navus {
+	display: inline-block;
+	width: 50%;
+	background-image: radial-gradient(circle closest-side at 200px 200px, #fff, #eee);
+	/* background-image: url(img/bg1.png); */
+}
+.navus img {
+	margin-left: 8rem;
+}
+.slider ul {
+	text-align: center;
+	padding: 0;
+	margin: 4rem 0;
+}
+.slider ul li {
+	display: inline-block;
+	padding: 1rem .5rem;
+}
+.slider ul li a {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: black;
+	/* margin: 1em auto; */
+}
+.slider ul li a:hover,
+.slider ul li a:focus {
+	transform: scale(1.2)
+}
+.btn:hover,
+.btn:focus {
+	background: #fcb6b6;
+	transition: all .3s ease-in;
+}
+
+a:hover,
+a:focus {
+	color: blue;
+	transition: all .3s ease-in;
+}
