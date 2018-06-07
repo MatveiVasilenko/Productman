@@ -51,6 +51,7 @@ header.container {
 }
 .menu li a {
 	padding: .5em 1em;
+	color: #000;
 }
 .blackwhite {
 	display: inline-block;
