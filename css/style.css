@@ -9,6 +9,7 @@ body{
 	font: 400 1.8rem/1 Raleway, sans-serif;
 	min-height: 100%;
 	background: #eee;
+	color: #303030;
 }
 a {
 	text-decoration: none;
@@ -24,7 +25,7 @@ section {
 	margin: 0 auto;
 }
 header.container {
-	margin: 3.4em auto;
+	margin: 2.4em auto;
 }
 .logo {
 	font-family: Roboto, sans-serif;
@@ -40,7 +41,8 @@ header.container {
 	width: calc(100% - 300px);
 	font-size: 1.8rem;
 	vertical-align: middle;
-	text-align: right
+	text-align: right;
+	color: #000;
 }
 .menu li {
 	display: inline-block;
@@ -91,7 +93,7 @@ header.container {
 .slider ul {
 	text-align: center;
 	padding: 0;
-	margin: 4rem 0;
+	margin: 3rem 0;
 }
 .slider ul li {
 	display: inline-block;
@@ -106,13 +108,16 @@ header.container {
 	/* margin: 1em auto; */
 }
 .slider ul li a:hover,
-.slider ul li a:focus {
-	transform: scale(1.2)
+.slider ul li a:focus,
+.slider ul li a:active {
+	transform: scale(1.2);
+	background-color: red;
 }
+
 .btn:hover,
 .btn:focus {
-	background: #fcb6b6;
-	transition: all .3s ease-in;
+	text-decoration: underline;
+	transition: all .5s ease-in;
 }
 
 a:hover,
@@ -120,3 +125,253 @@ a:focus {
 	color: blue;
 	transition: all .3s ease-in;
 }
+.title {
+	font-size: 4.8rem;
+	font-weight: 900;
+	text-align: center;
+}
+.star {
+	display: block;
+	margin: 1.5rem auto;
+}
+.text {
+	font-size: 1.8rem;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+.container--bg {
+	background: #fff;
+	padding-top: 11.4rem;
+}
+.gallery {
+	padding: 7.2rem;
+}
+.images {
+	font-size: 0;
+}
+.image {
+	position: relative;
+	background: #eee;
+	height: 390px;
+	overflow: hidden;
+	margin-bottom: 40px;
+	border-radius: 5px;
+}
+.image--xl {
+	display: inline-block;
+	width: 66%;
+}
+.image--l {
+	display: inline-block;
+	width: 31%;
+	margin-left: 3%;
+}
+
+.image--down {
+	display: inline-block;
+	width: 31%;
+}
+
+.image--mg {
+	margin-right: 3.5%;
+	margin-left: 3.5%
+}
+.left img {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.center img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%) ;
+}
+.right img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+.foot {
+	width: 50%;
+	margin: 20px auto;
+	margin-top: 80px;
+}
+.title {
+	text-transform: uppercase;
+	font-size: 4.8rem;
+	font-weight: 900;
+	text-align: center;
+	margin: 0;
+}
+.subtitle {
+	font-size: 1.8rem;
+	text-align: center;
+	padding: 20px 0;
+}
+.form {
+	padding: 0;
+	padding-bottom: 70px;
+	text-align: center;
+}
+.form input {
+	border: none;
+	font-size: 1.8rem;
+	height: 50px;
+	width: 40%;
+	background: #fff;
+	border-radius:  50px 0 0 50px;
+	padding: 35px 0px 35px 45px ;
+	vertical-align: middle;
+	border: 2px solid #fff;
+	font-weight: 600;
+	font-style: italic;
+	color: #979797;
+	background: url(../img/letter.png) no-repeat 5% 50%, #fff;
+}
+.form button {
+	font-size: 1.8rem;
+	width: 20%;
+	height: 50px;
+	padding: 28px 30px 42px 30px;
+	border-radius: 0 50px 50px 0;
+	vertical-align: middle;
+	border: none;
+	background: #e10011;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: Roboto, sans-serif;
+	font-weight: 900;
+	cursor: pointer;
+	border: 2px solid #e10011;
+}
+
+.form input:hover,
+.form input:focus,
+.form input:active {
+	border: 2px solid #e10011;
+}
+.form button:hover,
+.form button:focus,
+.form button:active {
+	border: 2px solid #fff;
+}
+
+
+footer ul {
+	text-align: center;
+	margin: 30px 0;
+	padding: 0;
+
+}
+footer ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+footer ul li a {
+	/* padding: 20px; */
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	background: #fff;
+	border-radius: 50%;
+	position: relative;
+	color: #979797;
+}
+footer ul li a i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 3.4rem;
+}
+.end {
+	padding: 20px 0;
+	text-align: center;
+	color: #979797;
+
+}
+.fb:hover,
+.fb:focus,
+.fb:active,
+.tw:hover,
+.tw:focus,
+.tw:active  {
+	color: blue;
+}
+.yb:hover,
+.yb:focus,
+.yb:active,
+.me:hover,
+.me:focus,
+.me:active  {
+	color: red;
+}
+
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active {
+	background: #979797;
+	
+}
+img {
+	position: relative;
+}
+.img--overlay {
+	background: #e10011;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	opacity: 0;
+	cursor: pointer;
+}
+.img--overlay span {
+	display: inline-block;
+	position: absolute;
+	/* top: 50%; */
+	left: 10%;
+	bottom: 15%;
+	font-size: 3rem;
+	font-family: Roboto, sans-serif;
+	font-weight: 900;
+	color: #fff;
+	text-align: left;
+	line-height: 1.3;
+}
+.img--overlay span:after {
+	 content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100px;
+    height: 5px;
+    background: #ffffff;
+}
+.img--overlay:hover {
+	opacity: 1;
+	transition: all .3s ease-in;
+}
+input:focus,
+button:focus,
+a:focus {
+	outline: none;
+}
+/* .form input[type="email"] {
+    position: relative;
+}
+
+.form input[type="email"]:before {
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '\f0e0';
+    font-size: 1.8rem;
+    color: #000;
+} */
